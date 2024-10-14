@@ -15,6 +15,8 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 - [BREAKING CHANGE] Remove `Timestamp` from all `DnsEntry`
   variants ([#1296](https://github.com/fujiapple852/trippy/issues/1296))
+- [BREAKING CHANGE] Add `tui-privacy` flag and change default value of
+  `tui-privacy-max-ttl` ([#1347](https://github.com/fujiapple852/trippy/issues/1347))
 
 ### Fixed
 
@@ -291,7 +293,8 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Change short alias for flag `max_round_duration` from `-I`
   to `-T` ([1](https://github.com/fujiapple852/trippy/commit/15978b0909139bb2b38baa4c6f6ca969c818fc75))
 - Added short cli flags for `source-port` (`-S`), `first-ttl` (`-f`)
-  and `tui-max-addrs` (`-M`) ([1](https://github.com/fujiapple852/trippy/commit/6a6a490174582c8500972b89407ba8d694c4c6fa))
+  and `tui-max-addrs` (
+  `-M`) ([1](https://github.com/fujiapple852/trippy/commit/6a6a490174582c8500972b89407ba8d694c4c6fa))
 
 ### Fixed
 
