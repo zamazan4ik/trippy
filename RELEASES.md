@@ -37,6 +37,15 @@ samples-chart-lost-color = "blue"
 
 See [1247](https://github.com/fujiapple852/trippy/issues/1247) for more details.
 
+### Improved Hop Privacy Settings
+
+TODO
+
+This is a **breaking change** and will impact users who current configure the `tui-privacy-max-ttl` setting as they must 
+now also enable `tui-privacy`.
+
+See ([#1347](https://github.com/fujiapple852/trippy/issues/1347) for more details.
+
 ### Thanks
 
 My thanks to all Trippy contributors, package maintainers and community members.
